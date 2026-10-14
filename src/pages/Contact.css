@@ -1,0 +1,114 @@
+.contact-page {
+  max-width: 720px;
+  margin: 50px auto;
+  padding: 44px;
+  background: #fffaf6;
+  border: 1px solid #f0dfd7;
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(112, 72, 62, 0.08);
+  color: #583a32;
+}
+
+.contact-page h1 {
+  margin: 0 0 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  text-align: center;
+  color: #70463c;
+}
+
+.contact-page > p {
+  max-width: 520px;
+  margin: 0 auto 32px;
+  color: #8b6e68;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Stack every form element vertically */
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-page label {
+  display: block;
+  margin-top: 12px;
+  color: #70483e;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.contact-page input,
+.contact-page textarea {
+  display: block;
+  width: 100%;
+  padding: 15px 16px;
+  border: 1px solid #e8d2c9;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #583a32;
+  font: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.contact-page input {
+  min-height: 52px;
+}
+
+.contact-page textarea {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.contact-page input::placeholder,
+.contact-page textarea::placeholder {
+  color: #b69b92;
+}
+
+.contact-page input:focus,
+.contact-page textarea:focus {
+  outline: none;
+  border-color: #bd6659;
+  box-shadow: 0 0 0 4px rgba(189, 102, 89, 0.12);
+}
+
+.contact-page button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 999px;
+  background: #bd6659;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #8d493f;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.contact-page button:hover {
+  background: #a9564b;
+  transform: translateY(-2px);
+}
+
+.contact-page button:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 600px) {
+  .contact-page {
+    margin: 24px 16px;
+    padding: 28px 22px;
+    border-radius: 20px;
+  }
+
+  .contact-page > p {
+    line-height: 1.7;
+  }
+}
