@@ -37,7 +37,7 @@ function Home() {
         <h3>Play Time</h3>
         <div className="gift-list">
           <GiftCard name="Play Gym Mat" price={70} image="https://m.media-amazon.com/images/I/71NPQfQQnZL._SL1500_.jpg" productUrl="https://www.amazon.com/Blissful-Diary-Detachable-Development-Essentials/dp/B0FWKK1QGT/ref=sxin_11_pa_sp_search_thematic_sspa?content-id=amzn1.sym.c7766b4a-1235-4790-a042-9f00d77510b1%3Aamzn1.sym.c7766b4a-1235-4790-a042-9f00d77510b1&crid=1KRQY433FI9NH&cv_ct_cx=baby%2Bplay%2Bgym&keywords=baby%2Bplay%2Bgym&pd_rd_i=B0DHVHLP32&pd_rd_r=f445f433-cb9e-477a-b3e4-9198cc50c547&pd_rd_w=k4EOR&pd_rd_wg=PxZjA&pf_rd_p=c7766b4a-1235-4790-a042-9f00d77510b1&pf_rd_r=P2GZDSN8CWWGWG1DBH53&qid=1791941057&s=baby-products&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=baby%2Bplay%2Bgym%2Cbaby-products%2C175&sr=1-4-49e4cbfc-c495-45fe-a611-e805ca89bb91-spons&aref=DOv7LGu2PN&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1" store="Amazon" />
-          <GiftCard name="Play Gym Mat" price={16} image="https://target.scene7.com/is/image/Target/GUEST_f7edcc0d-84de-419a-b27c-de6747c5b0ca?wid=1200&hei=1200&qlt=80" productUrl="https://www.target.com/p/infantino-go-gaga-spiral-activity-toy-pink/-/A-82224585" store="Target"/>
+          <GiftCard name="Activity Toy" price={16} image="https://target.scene7.com/is/image/Target/GUEST_f7edcc0d-84de-419a-b27c-de6747c5b0ca?wid=1200&hei=1200&qlt=80" productUrl="https://www.target.com/p/infantino-go-gaga-spiral-activity-toy-pink/-/A-82224585" store="Target"/>
         </div>
 
          <h3>Mama's Essentials</h3>
