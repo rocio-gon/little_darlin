@@ -1,16 +1,65 @@
-# React + Vite
+# Little Darlin’
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React website project built to create a warm, welcoming experience for visitors.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Little Darlin’ is a multi-page website featuring a home page, an our story page, a registry page, and a contact page. The project focuses on building a React application while practicing component-based development and client-side routing.
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home** — A welcoming introduction.
+- **Our Story** — A space to share the story behind the project.
+- **Registry** — A dedicated registry page.
+- **Contact** — A page for visitors to get in touch.
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS
+- Node.js and npm for development tools and dependency management
+
+## Architecture
+
+The application uses a component-based React structure, with separate components and page-level components organized by responsibility. React Router handles client-side navigation between pages.
+
+## Getting Started
+
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/), which includes npm.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/rocio-gon/little_darlin.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd little_darlin
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Development
+
+Vite provides a local development server and fast feedback while building and refining the application.
