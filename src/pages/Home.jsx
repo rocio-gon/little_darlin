@@ -5,7 +5,7 @@ function Home() {
     return (
     <>
       <main>
-        <h2>Howdy, little darlin’!</h2>
+        <h2>Howdy, little darlin’! Welcome to the world!</h2>
         <p>
           We’re counting our blessings, fluffing the bows, and getting ready for our sweetest adventure yet.
         </p>
